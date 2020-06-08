@@ -1,0 +1,116 @@
+.background-pink {
+	background-color: #ec008c;
+	padding: 10px;
+	position: relative;
+}
+.background-pink:after{
+	background-color: #ec008c;
+	content: "";
+	height: 50px;
+	position: absolute;
+	transform: skew(0deg,2deg);
+	width: 100.6%;
+	margin-top: 40px;
+	z-index: -1;
+}
+header ul{
+	padding-top: 10px;
+}
+.nav-link {
+	color: white;
+	font-size: 20px;
+}	
+.nav-link:hover{
+	color: white;
+}
+.active {
+	border-bottom: 1px solid white;
+}
+/*dropdown*/
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content{
+	position: absolute;
+	display: none;
+	background-color: #ec008c;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+	z-index: 100;
+}
+.dropdown-item{
+	color: white !important;
+}
+.dropdown-item:hover{
+	background-color: #e37cb9 !important
+}
+
+/*Footer*/
+.container {
+	padding: 50px !important;
+}
+footer{
+	background-color: #fafafa;
+	margin-top: 100px;
+	font-size: .75rem;
+	position: relative;
+	display: block;
+}
+footer:before{
+	background-color: #fafafa;
+	content: "";
+	height: 160px;
+	position: absolute;
+	transform: skew(0deg,4deg);
+	width: 100%;
+	margin-top: -60px;
+}
+
+/*Products*/
+.product-list .nav-link:hover{
+	color:#ec008c;
+}
+.product-list a{
+	color: grey;
+}
+.product-title{
+	color: black;
+}
+.product-link:hover{
+	text-decoration: none;
+}
+.product-link:hover .product-title{
+	color: #ed6fba;
+}
+.sale{
+	display: inline-block;
+	background-color: #ed6fba;
+	color: white;
+	border-radius: 60px;
+	position: absolute;
+	top: -2%;
+	left: 85%;
+	padding: 10px;
+	font-weight: bold;
+}
+span{
+	line-height: 50px;
+}
+.price-before-sale {
+	text-decoration: line-through;
+	color: grey;
+}
+.sale-price{
+	color: green;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.btn-danger{
+	color: white !important;
+	background-color: #ed6fba !important;
+}
+.card-body{
+	position: relative;
+}

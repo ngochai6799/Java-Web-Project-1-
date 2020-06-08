@@ -1,0 +1,102 @@
+.background-pink {
+	background-color: #ec008c;
+	padding: 10px;
+	position: relative;
+}
+.background-pink:after{
+	background-color: #ec008c;
+	content: "";
+	height: 50px;
+	position: absolute;
+	transform: skew(0deg,2deg);
+	width: 100.6%;
+	margin-top: 40px;
+	z-index: -1;
+}
+header ul{
+	padding-top: 10px;
+}
+.nav-link {
+	color: white;
+	font-size: 20px;
+}	
+.nav-link:hover{
+	color: white;
+}
+.active {
+	border-bottom: 1px solid white;
+}
+/*dropdown*/
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content{
+	position: absolute;
+	display: none;
+	background-color: #ec008c;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.dropdown-item{
+	color: white !important;
+}
+.dropdown-item:hover{
+	background-color: #e37cb9 !important
+}
+
+.center-pic {
+	margin-top: 80px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.center-pic img {
+	width: 800px;
+}
+/*container*/
+.container {
+	text-align: center;
+}
+.container article {
+	margin-bottom: 50px;
+}
+.container article h5{
+	color: black;
+	transition: all .3s ease;
+}
+.container article p{
+	color: black;
+}
+.container article img {
+	padding-bottom: 30px;
+	transition: all .3s ease;
+}
+.container a{
+	position: relative;
+	display: inline-block;
+}
+.container a:hover{
+	text-decoration: none !important; 
+}
+.container article:hover h5{
+	color: #ec008c;
+}
+.container article:hover p{
+	color: black;
+}
+.container article:hover img{
+	opacity: .6;
+}
+.view{
+	display: none;
+}
+.container article:hover .view{
+	display: inline-block;
+	position: absolute;
+	top: 37%;
+	right: 45%;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+}
